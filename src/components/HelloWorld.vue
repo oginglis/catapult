@@ -227,7 +227,7 @@ export default {
         tracer.display(ball);
         ball.display();
         p5.fill(p5.color(0,0,0));
-        p5.text( 'Rocket Velocity =' + p5.round(ball.vy, 2), 10, 90);
+        p5.text( 'Rocket Velocity = ' + p5.round(ball.vy, 2), 10, 90);
         ball.mass = slider.value();
         ball.size = p5.map(slider.value(), 1, 20, 50, 120);
       };
